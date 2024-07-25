@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; opacity: 300%;
+    z-index: 100;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header .menu-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.login-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.login-section .image img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.login-form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-form form div {
+    margin-bottom: 1rem;
+}
+
+.login-form form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.login-form form input[type="email"],
+.login-form form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.login-form form button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login-form .forgot-password,
+.login-form .signup {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.progress-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-step {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+.progress-step.active {
+    background-color: #333;
+}
+
+.experts-section {
+    margin-bottom: 2rem;
+}
+
+.experts-section h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.experts-section .highlight {
+    color: #333;
+    font-weight: bold;
+}
+
+.experts-section .experts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.experts-section .expert {
+    text-align: center;
+}
+
+.experts-section .expert img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.faq-section {
+    margin-bottom: 2rem;
+}
+
+.faq-section h4 {
+    margin-bottom: 1rem;
+}
+
+.faq-section .faqs {
+    margin-top: 1rem;
+}
+
+.faq-section details {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social-media a img {
+    width: 30px;
+    margin-right: 0.5rem;
+}
+
+footer .sign-up {
+    text-align: center;
+}
+
+footer .sign-up button {
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+}
+   
